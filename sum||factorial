@@ -1,0 +1,13 @@
+// This returns to sum of all the values between 0 and num
+
+function factorize(num) {
+  var array = [];
+  for (let i=0; i<=num;i++)
+    {
+      array.push(i);
+    }
+  var sum = array.reduce(function (a, b) {
+  return a + b; //change to * for factorialization
+}, 0);
+  return sum; 
+}
