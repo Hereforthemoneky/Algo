@@ -1,0 +1,5 @@
+function findSmallestNum(arr) {
+  var min = Math.min( ...arr );
+  return min;
+}
+//takes an array and returns the smallest number
